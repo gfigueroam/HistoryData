@@ -1,0 +1,82 @@
+CompositionModel _OzUWoV7oEeqP-IMIOa1IZQ {
+  predicateInterfaceName "Predicates"
+  className "GeneratedDecisionService"
+  packageName "historydata"
+  generateDot false
+  reorderingHeuristic NONE
+  CompositionFunction _asvTkVAKEeuJMO6DMtySzw at 420,90 size 240,64 {
+  	name "isValidHistoricalInput"
+  }
+  
+  DDFunctionRef _VVeH0WWeEeu02-cyZ8SN2Q at 651,455 size 240,46 {
+  	libraryComponentUID "_kO2TsWWaEeu02-cyZ8SN2Q"
+  	-LeftOperand-> _VLcO0GWuEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _kDmJsWYNEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  DDFunctionRef _WmcAcWWeEeu02-cyZ8SN2Q at 992,630 size 335,46 {
+  	libraryComponentUID "_43L0MWWbEeu02-cyZ8SN2Q"
+  	-RightOperand-> _BipTkWYMEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _XDiMsWYNEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  DDFunctionRef _W-y2EWWeEeu02-cyZ8SN2Q at 420,550 size 240,46 {
+  	libraryComponentUID "_p4ZoEGWYEeu02-cyZ8SN2Q"
+  	-RightOperand-> _p7SLQWYMEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _waWgcWYMEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  DDFunctionRef _XQEMQWWeEeu02-cyZ8SN2Q at 1040,533 size 240,46 {
+  	libraryComponentUID "_YlbkEWWbEeu02-cyZ8SN2Q"
+  	-RightOperand-> __6jrIWWtEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _e_bsQWYNEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  DDFunctionRef _XnJPgWWeEeu02-cyZ8SN2Q at 691,640 size 240,46 {
+  	libraryComponentUID "_Bzs4sWWbEeu02-cyZ8SN2Q"
+  	-LeftOperand-> _BipTkWYMEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _ZfQBMWYNEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  DDFunctionRef _5bO3QWWtEeuP7ehMnQ0u8g at 170,540 size 240,46 {
+  	libraryComponentUID "_MorBsWWcEeu02-cyZ8SN2Q"
+  	-LeftOperand-> _p7SLQWYMEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _tjJCwWYMEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  And __6jrIWWtEeuP7ehMnQ0u8g at 920,340 size 40,46 {
+  	-RightOperand-> _VLcO0GWuEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _kSYzoWYNEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  And _VLcO0GWuEeuP7ehMnQ0u8g at 791,255 size 40,46 {
+  	-RightOperand-> _6EuUAWYMEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (-51,-28) {
+  		id _6-cxUWYMEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  And _BipTkWYMEeuP7ehMnQ0u8g at 906,488 size 40,46 {
+  	-LeftOperand-> __6jrIWWtEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _eqUX4WYNEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  And _p7SLQWYMEeuP7ehMnQ0u8g at 560,280 size 40,46 {
+  	-LeftOperand-> _6EuUAWYMEeuP7ehMnQ0u8g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _6sEn4WYMEeuP7ehMnQ0u8g
+  	}
+  }
+  
+  And _6EuUAWYMEeuP7ehMnQ0u8g at 660,210 size 40,46 {
+  	-Operand-> _asvTkVAKEeuJMO6DMtySzw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _7WwjoWYMEeuP7ehMnQ0u8g
+  	}
+  }
+}
