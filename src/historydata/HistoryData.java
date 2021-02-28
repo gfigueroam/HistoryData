@@ -25,8 +25,9 @@ public class HistoryData implements Predicates {
 		builder.append("1.Registration ID\n");
 	}
 
+	
 	@Override
-	public String toString() {
+	public synchronized String toString() {
 		//String nl = System.lineSeparator();
 		return builder.toString();
 	}

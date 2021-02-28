@@ -16,6 +16,11 @@ public class ProcessData {
 		return data;
 	}
 	
+	
+	/**
+	 * Get number of rows in the file, this includes headers.
+	 * @return size
+	 */
 	public int getSize() {
 		return this.size;
 	}
