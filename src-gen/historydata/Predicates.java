@@ -4,6 +4,8 @@ package historydata;
 
 public interface Predicates {
 
+	boolean predicateName();
+
 	boolean isWidower();
 
 	boolean isValidInformantAddress();
