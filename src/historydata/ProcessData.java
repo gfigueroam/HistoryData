@@ -99,6 +99,7 @@ public class ProcessData {
 	public boolean isNullEntry(String input) {
 		if(input.equals(null)||input.equals(""))
 			return true;
+		
 		return false;
 	}
 

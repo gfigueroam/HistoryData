@@ -1,0 +1,108 @@
+Group Registration ID,District,Date of Death,Place of Death,Where Residence,Sex (M/F),Deceased Forename,Deceased Surname,Deceased Age at Death,Civil Status of Deceased (M/W/S/B),SR District/Reg Area,Rank - Profession or Occupation,Cause of Death 1,Duration of Illness 1,Cause of Death 2,Duration of Illness 2,Certified (C/U),Name of Informant,Qualification of Informant,At Time of Death (P/N),Residence of Informant,Date of Registration,Name of Registrar,Tiff File Path
+9454416,District A-Z,,,,,J.,DOE,50,,COUNTY A-Z NSEW,,,,,,,,,,,,,Deaths_Returns.tif
+9442525,District A-Z,,,,,J.,DOE,26,,COUNTY A-Z NSEW,,,,,,,,,,,,,Deaths_Returns.tif
+7471141,District A-Z,,,,,J.,DOE,41,,COUNTY A-Z NSEW,,,,,,,,,,,,,Deaths_Returns.tif
+7342625,District A-Z,18-Nov-01,Street A-Z,,M,J.,DOE,80,,COUNTY A-Z NSEW,,,,,,,,,N,Street A-Z,,DR A-Z,Deaths_Returns.tif
+3532063,District A-Z,,,,,J.,DOE,34,,COUNTY A-Z NSEW,,,,,,,,,,,,,Deaths_Returns.tif
+4135264,District A-Z,,,,,J.,DOE,,B,COUNTY A-Z NSEW,,,,,,,,,,,,DR A-Z,Deaths_Returns.tif
+8318458,District A-Z,,,,,J.,DOE,2,,COUNTY A-Z NSEW,,,,,,,,,,,,DR A-Z,Deaths_Returns.tif
+3672846,District A-Z,03-Oct-01,Street A-Z,,M,J.,DOE,8,B,COUNTY A-Z NSEW,,Senility,,,,,S. DOE,,N,Street A-Z,05-Oct-01,DR A-Z,Deaths_Returns.tif
+5128172,District A-Z,,,,,J.,DOE,47,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+2231008,District A-Z,,,,,J.,DOE,83,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+2014621,District A-Z,,,,,J.,DOE,26,,COUNTY A-Z NSEW,,,,,,,,,N,,,,Deaths_Returns.tif
+6817480,District A-Z,,,,,J.,DOE,5,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+7537140,District A-Z,,,,,J.,DOE,15,W,COUNTY A-Z NSEW,,,,,,C,S. DOE,,N,,,DR A-Z,Deaths_Returns.tif
+3416278,District A-Z,,,,,J.,DOE,7,,COUNTY A-Z NSEW,,,,,,,,,N,,,,Deaths_Returns.tif
+7722553,District A-Z,,,,,J.,DOE,82,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+8517478,District A-Z,02/10/101,Street A-Z,,M,J.,DOE,,S,COUNTY A-Z NSEW,,Cardiac Failure,0000-03-00,Senility,0000-00-01,C,S. DOE,,P,Street A-Z,08-Oct-01,DR A-Z,Deaths_Returns.tif
+3653117,District A-Z,06-Oct-01,Street A-Z,,M,J.,DOE,,B,COUNTY A-Z NSEW,,Cardiac Failure,0000-00-00T04:00Z,Senility,,C,S. DOE,Husband,N,Street A-Z,10-Nov-01,DR A-Z,Deaths_Returns.tif
+4257787,District A-Z,22-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Senility,0000-00-00T06:00Z,Meningitis,,C,S. DOE,Son,N,Street A-Z,08-Nov-01,DR A-Z,Deaths_Returns.tif
+6752116,District A-Z,15-Nov-01,Street A-Z,,f,J.,DOE,77,W,COUNTY A-Z NSEW,,Cardiac Failure,0000-12-00,,,C,S. DOE,Mother,P,Street A-Z,17-Nov-01,DR A-Z,Deaths_Returns.tif
+3041036,District A-Z,,,,,J.,DOE,22,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+7253854,District A-Z,,,,,J.,DOE,65,,COUNTY A-Z NSEW,,,,,,,,,N,,,,Deaths_Returns.tif
+5282886,District A-Z,,,,,J.,DOE,1,,COUNTY A-Z NSEW,,,,,,,,,N,,,,Deaths_Returns.tif
+3160331,District A-Z,23-Dec-01,Street A-Z,,,J.,DOE,72,,COUNTY A-Z NSEW,,,,,,,,,N,Street A-Z,,DR A-Z,Deaths_Returns.tif
+7542128,District A-Z,,,,,J.,DOE,74,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+4137847,District A-Z,,,,,J.,DOE,21,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+9060400,District A-Z,,,,,J.,DOE,3,,COUNTY A-Z NSEW,,,,,,,,,N,,,DR A-Z,Deaths_Returns.tif
+7543030,District A-Z,17-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Cardiac Failure,,,,,S. DOE,,N,Street A-Z,19-Oct-01,DR A-Z,Deaths_Returns.tif
+3078376,District A-Z,,,,,J.,DOE,44,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Mother,N,,,DR A-Z,Deaths_Returns.tif
+6158251,District A-Z,,,,,J.,DOE,27,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Daughter,N,,,DR A-Z,Deaths_Returns.tif
+4403376,District A-Z,,,,,J.,DOE,45,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Daughter,N,,,DR A-Z,Deaths_Returns.tif
+4401611,District A-Z,,Street A-Z,,,J.,DOE,75,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Widower,N,Street A-Z,,DR A-Z,Deaths_Returns.tif
+5132416,District A-Z,,Street A-Z,,,J.,DOE,11,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Son,N,Street A-Z,02-Dec-01,DR A-Z,Deaths_Returns.tif
+6708642,District A-Z,,Street A-Z,,,J.,DOE,93,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Husband,N,Street A-Z,02-Dec-01,DR A-Z,Deaths_Returns.tif
+7883060,District A-Z,19-Dec-01,Street A-Z,,,J.,DOE,24,,COUNTY A-Z NSEW,,,,,,C,S. DOE,Son,N,Street A-Z,23-Dec-01,DR A-Z,Deaths_Returns.tif
+5616424,District A-Z,,,,,J.,DOE,5,,COUNTY A-Z NSEW,,,,,,C,,,,,,DR A-Z,Deaths_Returns.tif
+5657765,District A-Z,29-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Senility,Some days,Asthenia,0000-00-08,C,S. DOE,,P,Street A-Z,01-Nov-01,DR A-Z,Deaths_Returns.tif
+7181708,,,,,,J.,DOE,,,,,,,,,,,,,,,,Deaths_Returns.tif
+6488336,,,,,,,,,,,,,,,,,,,,,,,Deaths_Returns.tif
+1444525,District A-Z,04-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,M,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,Husband,N,,12-Nov-01,DR A-Z,Deaths_Returns.tif
+6575752,,,,,,J.,DOE,,,,,,,,,,,,,,,,Deaths_Returns.tif
+8767160,District A-Z,18-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Phthisis,0000-02-00,,,C,S. DOE,Daughter,P,Street A-Z,19-Dec-01,DR A-Z,Deaths_Returns.tif
+8411276,District A-Z,01-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,M,COUNTY A-Z NSEW,,Senility,,Debility,,C,S. DOE,Daughter,N,Street A-Z,02-Oct-01,DR A-Z,Deaths_Returns.tif
+3788646,District A-Z,02-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Phthisis,,,,C,S. DOE,Father,N,Street A-Z,04-Oct-01,DR A-Z,Deaths_Returns.tif
+9604485,District A-Z,07-Oct-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Father,N,Street A-Z,09-Oct-01,DR A-Z,Deaths_Returns.tif
+9713333,District A-Z,12-Sep-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,,P,Street A-Z,05-Oct-01,DR A-Z,Deaths_Returns.tif
+5683414,District A-Z,07-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Phthisis,0000-00-01,,,C,S. DOE,Husband,P,Street A-Z,07-Oct-01,DR A-Z,Deaths_Returns.tif
+2433485,District A-Z,14-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,,P,Street A-Z,15-Oct-01,DR A-Z,Deaths_Returns.tif
+8811622,District A-Z,10-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Mother,N,Street A-Z,12-Oct-01,DR A-Z,Deaths_Returns.tif
+7148801,District A-Z,16-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,Inmate,N,Street A-Z,19-Oct-01,DR A-Z,Deaths_Returns.tif
+7372256,District A-Z,15-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Father,N,Street A-Z,19-Oct-01,DR A-Z,Deaths_Returns.tif
+8151518,District A-Z,18-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Asthenia,,Asthenia,,C,S. DOE,Inmate,N,Street A-Z,19-Oct-01,DR A-Z,Deaths_Returns.tif
+1621436,District A-Z,21-Oct-01,Street A-Z,House A-Z,M,J.,DOE,,M,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,Husband,N,Street A-Z,21-Oct-01,DR A-Z,Deaths_Returns.tif
+6568154,District A-Z,19-Oct-01,Street A-Z,House A-Z,M,J.,DOE,,W,COUNTY A-Z NSEW,,Phthisis,,,,C,S. DOE,Inmate,N,,22-Oct-01,DR A-Z,Deaths_Returns.tif
+6106160,District A-Z,24-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Debility,,,,C,S. DOE,Father,N,Street A-Z,25-Oct-01,DR A-Z,Deaths_Returns.tif
+1181561,District A-Z,25-Oct-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,,P,Street A-Z,26-Oct-01,DR A-Z,Deaths_Returns.tif
+5428564,District A-Z,25-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Senility,0000-00-20?,,,C,S. DOE,,P,Street A-Z,28-Oct-01,DR A-Z,Deaths_Returns.tif
+3041117,District A-Z,25-Oct-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,Mother,N,Street A-Z,26-Oct-01,DR A-Z,Deaths_Returns.tif
+8053145,District A-Z,28-Oct-01,Street A-Z,House A-Z,M,J.,DOE,,W,COUNTY A-Z NSEW,,Meningitis,,Phthisis,0000-00-02,C,S. DOE,Inmate,N,Street A-Z,02-Nov-01,DR A-Z,Deaths_Returns.tif
+5876741,District A-Z,29-Oct-01,Street A-Z,,F,J.,DOE,,S,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Inmate,N,Street A-Z,02-Nov-01,DR A-Z,Deaths_Returns.tif
+8505118,District A-Z,01-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,W,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Mother,N,Street A-Z,02-Nov-01,DR A-Z,Deaths_Returns.tif
+8671855,District A-Z,03-Nov-01,Street A-Z,,F,J.,DOE,,S,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,,P,Street A-Z,05-Nov-01,DR A-Z,Deaths_Returns.tif
+9844456,District A-Z,05-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,Husband,N,Street A-Z,09-Nov-01,DR A-Z,Deaths_Returns.tif
+2875717,District A-Z,04-Nov-01,Street A-Z,,F,J.,DOE,,S,COUNTY A-Z NSEW,,Debility,,,,C,S. DOE,Widower,N,Street A-Z,09-Nov-01,DR A-Z,Deaths_Returns.tif
+9568262,District A-Z,09-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,Husband,N,Street A-Z,11-Nov-01,DR A-Z,Deaths_Returns.tif
+8188635,District A-Z,10-Nov-01,Street A-Z,,F,J.,DOE,,S,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Widower,N,Street A-Z,16-Nov-01,DR A-Z,Deaths_Returns.tif
+9040573,,,,,,J.,DOE,,,,,,,,,,,,,,,,Deaths_Returns.tif
+3281168,District A-Z,12-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Phthisis,,,,C,S. DOE,Father,N,Street A-Z,16-Nov-01,DR A-Z,Deaths_Returns.tif
+8425885,District A-Z,14-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Widower,N,Street A-Z,16-Nov-01,DR A-Z,Deaths_Returns.tif
+7372560,District A-Z,13-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,Widower,N,Street A-Z,16-Nov-01,DR A-Z,Deaths_Returns.tif
+3444005,District A-Z,13-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Debility,,,,C,S. DOE,Inmate,N,Street A-Z,16-Nov-01,DR A-Z,Deaths_Returns.tif
+4178103,District A-Z,14-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,Son,N,Street A-Z,16-Nov-01,DR A-Z,Deaths_Returns.tif
+2027173,District A-Z,16-Nov-01,Street A-Z,,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Father,N,Street A-Z,23-Nov-01,DR A-Z,Deaths_Returns.tif
+7285285,,,,,,J.,DOE,,,,,,,,,,,,,,,,Deaths_Returns.tif
+1210138,District A-Z,21-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,W,COUNTY A-Z NSEW,,Cardiac Failure,,Phthisis,,C,S. DOE,Mother,N,Street A-Z,23-Nov-01,DR A-Z,Deaths_Returns.tif
+1443650,District A-Z,16-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Widower,N,Street A-Z,23-Nov-01,DR A-Z,Deaths_Returns.tif
+9610232,District A-Z,19-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Husband,N,Street A-Z,23-Nov-01,DR A-Z,Deaths_Returns.tif
+8333627,District A-Z,18-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Father,N,Street A-Z,23-Nov-01,DR A-Z,Deaths_Returns.tif
+5866226,District A-Z,24-Nov-01,Street A-Z,,F,J.,DOE,,S,COUNTY A-Z NSEW,,Phthisis,,Senility,,C,S. DOE,,P,Street A-Z,24-Nov-01,DR A-Z,Deaths_Returns.tif
+8657132,District A-Z,25-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Debility,,,,C,S. DOE,Inmate,N,,27-Nov-01,DR A-Z,Deaths_Returns.tif
+9816050,District A-Z,27-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Husband,N,Street A-Z,28-Nov-01,DR A-Z,Deaths_Returns.tif
+5245617,District A-Z,26-Nov-01,Street A-Z,House A-Z,M,J.,DOE,,M,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,Son,N,Street A-Z,30-Nov-01,DR A-Z,Deaths_Returns.tif
+6770413,District A-Z,22-Nov-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Widower,N,Street A-Z,30-Nov-01,DR A-Z,Deaths_Returns.tif
+5375315,,,,,,J.,DOE,,,,,,,,,,,,,,,,Deaths_Returns.tif
+8133750,,,,,,J.,DOE,,,,,,,,,,,,,,,,Deaths_Returns.tif
+1128256,District A-Z,04-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Meningitis,0004-00-00,,,U,S. DOE,Father,P,Street A-Z,07-Dec-01,DR A-Z,Deaths_Returns.tif
+3413552,District A-Z,05-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,Cardiac Failure,,C,S. DOE,Inmate,N,Street A-Z,07-Dec-01,DR A-Z,Deaths_Returns.tif
+5510884,District A-Z,12-Dec-01,Street A-Z,,M,J.,DOE,,B,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,Husband,N,Street A-Z,17-Dec-01,DR A-Z,Deaths_Returns.tif
+1241050,District A-Z,13-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Phthisis,,,,C,S. DOE,Daughter,N,Street A-Z,14-Dec-01,DR A-Z,Deaths_Returns.tif
+2241552,District A-Z,10-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,M,COUNTY A-Z NSEW,,Phthisis,,,,C,S. DOE,Father,N,,13-Dec-01,DR A-Z,Deaths_Returns.tif
+7063673,District A-Z,10-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Daughter,N,Street A-Z,14-Dec-01,DR A-Z,Deaths_Returns.tif
+4861754,District A-Z,13-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Son,N,Street A-Z,14-Dec-01,DR A-Z,Deaths_Returns.tif
+2381166,District A-Z,14-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,M,COUNTY A-Z NSEW,,Debility,,,,C,S. DOE,Father,N,,16-Dec-01,DR A-Z,Deaths_Returns.tif
+3480863,District A-Z,20-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Widower,N,Street A-Z,21-Dec-01,DR A-Z,Deaths_Returns.tif
+2758714,District A-Z,19-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Senility,,Phthisis,,C,S. DOE,Husband,N,Street A-Z,21-Dec-01,DR A-Z,Deaths_Returns.tif
+2888114,District A-Z,19-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Senility,,,,C,S. DOE,Widower,N,Street A-Z,21-Dec-01,DR A-Z,Deaths_Returns.tif
+6663512,District A-Z,21-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Debility,,,,C,S. DOE,Mother,N,Street A-Z,23-Dec-01,DR A-Z,Deaths_Returns.tif
+9811753,District A-Z,22-Dec-01,Street A-Z,,F,J.,DOE,,S,COUNTY A-Z NSEW,,Senility,,Meningitis,,C,S. DOE,,P,Street A-Z,24-Dec-01,DR A-Z,Deaths_Returns.tif
+9465057,District A-Z,24-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Mother,N,Street A-Z,28-Dec-01,DR A-Z,Deaths_Returns.tif
+1771354,District A-Z,28-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Senility,0000-00-06,,,C,S. DOE,,P,Street A-Z,28-Dec-01,DR A-Z,Deaths_Returns.tif
+8108285,District A-Z,22-Dec-01,Street A-Z,House A-Z,M,J.,DOE,,B,COUNTY A-Z NSEW,,Meningitis,,,,C,S. DOE,Father,N,Street A-Z,28-Dec-01,DR A-Z,Deaths_Returns.tif
+8878804,District A-Z,26-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,W,COUNTY A-Z NSEW,,Cardiac Failure,,,,C,S. DOE,Daughter,N,Street A-Z,30-Dec-01,DR A-Z,Deaths_Returns.tif
+2066537,District A-Z,25-Dec-01,Street A-Z,House A-Z,F,J.,DOE,,S,COUNTY A-Z NSEW,,Asthenia,,,,C,S. DOE,Son,N,Street A-Z,28-Dec-01,DR A-Z,Deaths_Returns.tif
+8034818,District A-Z,,,,,J.,DOE,1,,COUNTY A-Z NSEW,,,,,,C,,,,,,DR A-Z,Deaths_Returns.tif
+4383562,District A-Z,1901-,,,f,J.,DOE,,,COUNTY A-Z NSEW,,,0,,,,,,,,1901-,,Deaths_Returns.tif
+4343372,District A-Z,10-Dec-01,Street A-Z,House A-Z,f,J.,DOE,,s,COUNTY A-Z NSEW,,Meningitis,u,Senility,u,c,S. DOE,Father,n,Street A-Z,14-Dec-01,DR A-Z,Deaths_Returns.tif
+8653160,District A-Z,1901-,,,f,J.,DOE,,,COUNTY A-Z NSEW,,,0,,,,,,,Street A-Z,,,Deaths_Returns.tif
+8176101,District A-Z,1901-,,,f,J.,DOE,,,COUNTY A-Z NSEW,,,0,,,,,,,Street A-Z,,,Deaths_Returns.tif

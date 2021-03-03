@@ -22,12 +22,11 @@ public class CSVReader {
 	public CSVReader() {
 		
 		try {
-			//file = getFile();
-			//if(file.exists() || file.isFile()) {
-			file = new File("/Users/figueroag/projects/courses/AI-master/Eclipse_Import/info.scce.addlib.mide.HistoryData/data/HistoryData_project.csv");
+			file = getFile();
+			if(file.exists() || file.isFile()) {
 				isFileFound = true;
 				bufferedReader = new BufferedReader(new FileReader(file));
-			//}
+			}
 		}catch(Exception e) {
 			System.out.print("No file selected/found!!!");
 		}

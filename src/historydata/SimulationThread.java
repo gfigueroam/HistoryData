@@ -1,9 +1,10 @@
 package historydata;
 
-
 import java.text.ParseException;
 import java.util.List;
 
+import org.jfree.data.Value;
+import org.jfree.data.Values;
 
 public class SimulationThread extends Thread {
 
@@ -56,16 +57,14 @@ public class SimulationThread extends Thread {
 	 * Select file for testing
 	 */
 	private void setupFiles() {
-		
-		
 		CSVReader reader = new CSVReader();
 		List<String[]> data;
+		
 		if(reader.isFileFound()) {
-			data = reader.getData(); 
+			data = reader.getData();
 			this.processor = new ProcessData(data);
 		}
 	}
-	
 	
 	/**
 	 * 
@@ -78,6 +77,12 @@ public class SimulationThread extends Thread {
 	public void startProcessingData(){
 		currentInputData = new HistoryData();
 		String[] values = processor.getCurrentRow(counter);
+		
+		int i = 0;
+		for (String s : values) {
+			System.out.println(i + " -- " + s);
+			i++;
+		}
 		
 		//ID
 		//currentInputData.setIsNumeric(values[0]);
@@ -110,5 +115,8 @@ public class SimulationThread extends Thread {
 		//Qualified Informant or Address of Informant
 		currentInputData.setIsQualifiedInformant(values[18]);
 		currentInputData.setIsValidInformantAddress(values[20]); //TODO What to do if no data at end of row...array only has 8 spots, error
+		
+		//Rank - Profession or Occupation
+		currentInputData.setIsValidRank(values[11]);
 	}
 }

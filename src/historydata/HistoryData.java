@@ -16,7 +16,7 @@ public class HistoryData implements Predicates {
 
 	private boolean isValidIDFormat, isNumeric, isMale, isFemale, isValidAge, isMarried, isBachelor, isWidower, isSingle, 
 	isPresentAtDeath, isNotPresentAtDeath, isValidInformant,
-	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate; //isCertified, isUncertified,isValidCauseOfDeath,
+	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate, isValidRank; //isCertified, isUncertified,isValidCauseOfDeath,
 	private StringBuilder builder;
 
 	public HistoryData() {
@@ -312,8 +312,7 @@ public class HistoryData implements Predicates {
 		{
 			//convertInput = new DateConverter();
 			//input = convertInput.convertString(input);
-			//yearString = input.trim().substring(input.length()-4);
-			yearString = "19" + input.trim().substring(input.length()-2);
+			yearString = input.trim().substring(input.length()-4);
 		}
 		
 		setIsNumeric(yearString);
@@ -338,10 +337,33 @@ public class HistoryData implements Predicates {
 	 * @return
 	 */
 	public boolean isNullEntry(String input) {
-		if(input.equals(null)||input.equals(""))
+		if(input.equals(null)||input.isEmpty())
 			return true;
 		
 		return false;
+	}
+
+	@Override
+	public boolean isValidRank() {		
+		return isValidRank;
+	}
+
+	public void setIsValidRank(String input) {
+		builder.append("\n8.Rank - Profession or Occupation\n");
+		
+		if(!isNullEntry(input))
+		{
+			if(input.equalsIgnoreCase("Baker")
+			|| input.equalsIgnoreCase("Farmer")
+			|| input.equalsIgnoreCase("Housekeeper")
+			|| input.equalsIgnoreCase("Lady")
+			|| input.equalsIgnoreCase("Labourer")
+			|| input.equalsIgnoreCase("Teacher")) {
+				isValidRank = true;
+			}
+		}
+		
+		builder.append(" 	isValidRank: " + isValidRank +"\n");
 	}
 	
 	

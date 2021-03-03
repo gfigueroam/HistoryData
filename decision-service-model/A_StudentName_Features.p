@@ -3,7 +3,7 @@ PredicatesModel _HE7uoV7oEeqP-IMIOa1IZQ {
   	name "isValidIDFormat"
   }
   
-  Predicate _tVMSoV7qEeqXlZpgZ7Ab5w at 69,260 size 240,64 {
+  Predicate _tVMSoV7qEeqXlZpgZ7Ab5w at 69,150 size 240,64 {
   	name "isNumeric"
   }
   
@@ -15,7 +15,7 @@ PredicatesModel _HE7uoV7oEeqP-IMIOa1IZQ {
   	name "isFemale"
   }
   
-  Predicate _V7MU4WEwEeqeQ6gvu3M62w at 55,440 size 268,64 {
+  Predicate _V7MU4WEwEeqeQ6gvu3M62w at 40,240 size 268,64 {
   	name "isValidAge"
   }
   
@@ -57,5 +57,29 @@ PredicatesModel _HE7uoV7oEeqP-IMIOa1IZQ {
   
   Predicate _uFkwAWIGEeqHEMcDVmTZNA at 20,640 size 404,64 {
   	name "isRegistrationDateOutOfRange"
+  }
+  
+  Predicate _Bk6qAXnMEeuH9MYdsOdFbg at 69,323 size 240,64 {
+  	name "isValidRank"
+  }
+  
+  Predicate _7TlSEXt8EeuBl88ASh5xzA at 60,397 size 303,64 {
+  	name "isValidIllnessDuration1"
+  }
+  
+  Predicate _UMu88Xt9EeuBl88ASh5xzA at 40,480 size 303,64 {
+  	name "isValidIllnessDuration2"
+  }
+  
+  Predicate _DG2koXt-EeuBl88ASh5xzA at 490,230 size 302,64 {
+  	name "isValidCauseOfDeath1"
+  }
+  
+  Predicate _Iw1E4Xt-EeuBl88ASh5xzA at 520,303 size 302,64 {
+  	name "isValidCauseOfDeath2"
+  }
+  
+  Predicate _xitGgXt_EeuBl88ASh5xzA at 460,366 size 240,64 {
+  	name "isValidCivilStatusOfDeceased"
   }
 }
