@@ -349,7 +349,7 @@ DDModel _Lz9pkV7oEeqP-IMIOa1IZQ {
   }
   
   DDFunction _dreIQXt9EeuBl88ASh5xzA at 589,1540 size 280,64 {
-  	name "isValidIllnessDuration1"
+  	name "checkIllnessDuration1"
   	-Initial-> _Sw0jIHt-EeuBl88ASh5xzA  decorate "" at (0,0) {
   		id _TNa_kXt-EeuBl88ASh5xzA
   	}
@@ -386,7 +386,7 @@ DDModel _Lz9pkV7oEeqP-IMIOa1IZQ {
   }
   
   DDFunction _sjJ4wXt-EeuBl88ASh5xzA at 570,2060 size 280,64 {
-  	name "isValidIllnessDuration1"
+  	name "checkIllnessDuration2"
   	-Initial-> _abIuAXt_EeuBl88ASh5xzA  decorate "" at (0,0) {
   		id _byRgEXt_EeuBl88ASh5xzA
   	}
@@ -423,7 +423,7 @@ DDModel _Lz9pkV7oEeqP-IMIOa1IZQ {
   }
   
   DDFunction _SuwbsXuAEeuBl88ASh5xzA at -19,1896 size 364,64 {
-  	name "isValidCivilStatusOfDeceased"
+  	name "checkCivilStatus"
   	-Initial-> _wLkfAXuAEeuBl88ASh5xzA  decorate "" at (0,0) {
   		id _xTRG4HuAEeuBl88ASh5xzA
   	}

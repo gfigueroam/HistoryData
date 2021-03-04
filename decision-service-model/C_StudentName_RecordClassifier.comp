@@ -99,10 +99,10 @@ CompositionModel _OzUWoV7oEeqP-IMIOa1IZQ {
   	}
   }
   
-  DDFunctionRef _vhd4gWc8EeuzTIFTdv95iw at 130,948 size 240,64 {
+  DDFunctionRef _vhd4gWc8EeuzTIFTdv95iw at 646,1151 size 240,64 {
   	libraryComponentUID "_l_gEAWaBEeuEU4YTwQCR3w"
-  	-LeftOperand-> _cgSSIXq6EeusQ7Y162tRKg  decorate "" at (0,0) decorate "Text" at (0,0) {
-  		id _he7WYXq6EeusQ7Y162tRKg
+  	-RightOperand-> _46q7EXxaEeuBl88ASh5xzA  decorate "" at (0,0) decorate "Text" at (-67,-43) {
+  		id _5-w1UXxaEeuBl88ASh5xzA
   	}
   }
   
@@ -116,6 +116,45 @@ CompositionModel _OzUWoV7oEeqP-IMIOa1IZQ {
   	libraryComponentUID "_-UDZgXq4EeusQ7Y162tRKg"
   	-RightOperand-> _cgSSIXq6EeusQ7Y162tRKg  decorate "" at (0,0) decorate "Text" at (-70,-40) {
   		id _yl_lAXq6EeusQ7Y162tRKg
+  	}
+  }
+  
+  DDFunctionRef _Sw6VwXxaEeuBl88ASh5xzA at 642,1257 size 273,64 {
+  	libraryComponentUID "_dreIQXt9EeuBl88ASh5xzA"
+  	-RightOperand-> _wfVGcHxaEeuBl88ASh5xzA  decorate "" at (0,0) decorate "Text" at (-71,-45) {
+  		id _zno7MXxaEeuBl88ASh5xzA
+  	}
+  }
+  
+  DDFunctionRef _TG_TcXxaEeuBl88ASh5xzA at 114,1257 size 273,64 {
+  	libraryComponentUID "_sjJ4wXt-EeuBl88ASh5xzA"
+  	-LeftOperand-> _wfVGcHxaEeuBl88ASh5xzA  decorate "" at (0,0) decorate "Text" at (-6,-45) {
+  		id _0J23cXxaEeuBl88ASh5xzA
+  	}
+  }
+  
+  DDFunctionRef _TgIMMXxaEeuBl88ASh5xzA at 650,1040 size 240,64 {
+  	libraryComponentUID "_SuwbsXuAEeuBl88ASh5xzA"
+  	-RightOperand-> _V0ie0XxaEeuBl88ASh5xzA  decorate "" at (0,0) decorate "Text" at (-59,-37) {
+  		id _j42uIXxaEeuBl88ASh5xzA
+  	}
+  }
+  
+  And _V0ie0XxaEeuBl88ASh5xzA at 497,1050 size 50,64 {
+  	-LeftOperand-> _cgSSIXq6EeusQ7Y162tRKg  decorate "" at (0,0) decorate "Text" at (-70,-34) {
+  		id _l-5NkXxaEeuBl88ASh5xzA
+  	}
+  }
+  
+  Or _wfVGcHxaEeuBl88ASh5xzA at 502,1257 size 40,64 {
+  	-LeftOperand-> _46q7EXxaEeuBl88ASh5xzA  decorate "" at (0,0) decorate "Text" at (-73,-42) {
+  		id __uYDgXxaEeuBl88ASh5xzA
+  	}
+  }
+  
+  And _46q7EXxaEeuBl88ASh5xzA at 497,1151 size 50,64 {
+  	-LeftOperand-> _V0ie0XxaEeuBl88ASh5xzA  decorate "" at (0,0) decorate "Text" at (-73,-17) {
+  		id _6U-88XxaEeuBl88ASh5xzA
   	}
   }
 }

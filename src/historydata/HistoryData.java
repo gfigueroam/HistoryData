@@ -16,7 +16,10 @@ public class HistoryData implements Predicates {
 
 	private boolean isValidIDFormat, isNumeric, isMale, isFemale, isValidAge, isMarried, isBachelor, isWidower, isSingle, 
 	isPresentAtDeath, isNotPresentAtDeath, isValidInformant,
-	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate, isValidRank; //isCertified, isUncertified,isValidCauseOfDeath,
+	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate, 
+	isValidRank, isValidCivilStatusOfDeceased, isValidIllnessDuration1, 
+	isValidIllnessDuration2, isValidCauseOfDeath1, isValidCauseOfDeath2; //isCertified, isUncertified,isValidCauseOfDeath,
+	
 	private StringBuilder builder;
 
 	public HistoryData() {
@@ -365,14 +368,101 @@ public class HistoryData implements Predicates {
 		
 		builder.append(" 	isValidRank: " + isValidRank +"\n");
 	}
+
+	@Override
+	public boolean isValidCivilStatusOfDeceased() {
+		return isValidCivilStatusOfDeceased;
+	}
 	
+	public void setValidCivilStatus(String cs, String sex) {
+		builder.append("\n9.Civil Status of Deceased (M/W/S/B)\n");
+		
+		setMaritalStatus(cs);
+		setIsValidSex(sex);
+		 
+		if (isBachelor && isMale) {
+			isValidCivilStatusOfDeceased = true;
+		}
+		if (isMarried && (isFemale || isMale)) {
+			isValidCivilStatusOfDeceased = true;
+		}
+		if (isSingle && isFemale) {
+			isValidCivilStatusOfDeceased = true;
+		}
+		if (isWidower && (isMale || isFemale)) {
+			isValidCivilStatusOfDeceased = true;
+		}
+		
+		builder.append(" 	isValidCivilStatusOfDeceased: " + isValidCivilStatusOfDeceased +"\n");
+		
+	}
+	
+	@Override
+	public boolean isValidIllnessDuration2() {
+		// TODO Auto-generated method stub
+		return isValidIllnessDuration2;
+	}
+	
+	public void setValidIllnessDuration2(String input) {
+		builder.append("\n10.Civil Status of Deceased (M/W/S/B)\n");
+		
+		if(!isNullEntry(input))
+		{
+			if (regexMatch1(input) || regexMatch2(input) || stringContains(input)) 
+			{
+				isValidIllnessDuration2 = true;
+			}
+		}
+		
+		builder.append(" 	isValidIllnessDuration2: " + isValidIllnessDuration2 +"\n");
+	}
 	
 
-
-
+	@Override
+	public boolean isValidIllnessDuration1() {
+		// TODO Auto-generated method stub
+		return isValidIllnessDuration1;
+	}
 	
+	public void setValidIllnessDuration1(String input) {
+		builder.append("\n11.Civil Status of Deceased (M/W/S/B)\n");
+		
+		if(!isNullEntry(input))
+		{
+			if (regexMatch1(input) || regexMatch2(input) || stringContains(input)) 
+			{
+				isValidIllnessDuration1 = true;
+			}
+		}
+		
+		builder.append(" 	isValidIllnessDuration1: " + isValidIllnessDuration1 +"\n");
+	}
 
+	@Override
+	public boolean isValidCauseOfDeath1() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
-
-
+	@Override
+	public boolean isValidCauseOfDeath2() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	public boolean regexMatch1(String input) {
+		return input.matches("\\d{2}-\\d{2}-\\d{2}"); 
+	}
+	
+	public boolean regexMatch2(String input) {
+		return input.toUpperCase().split("T")[0].matches("\\d{2}-\\d{2}-\\d{2}"); 
+	}
+	
+	public boolean stringContains(String input) {
+		return input.toUpperCase().contains("ABOUT") 
+				|| input.toUpperCase().contains("MIN")
+				|| input.toUpperCase().contains("DAY") 
+				|| input.toUpperCase().contains("MONTH")
+				|| input.toUpperCase().contains("YEAR");
+	}
 }
