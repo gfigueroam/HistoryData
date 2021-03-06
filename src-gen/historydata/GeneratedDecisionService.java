@@ -6,126 +6,147 @@ package historydata;
 public class GeneratedDecisionService {
 
     public boolean isValidHistoricalInput(Predicates predicates) {
-        return eval140518177769376(predicates);
+        return eval1804870928704(predicates);
     }
 
-    private boolean eval140518177769376(Predicates predicates) {
-        if (predicates.isValidInformant())
-            return eval140518177769344(predicates);
+    private boolean eval1804870928704(Predicates predicates) {
+        if (predicates.isValidCauseOfDeath2())
+            return eval1804870928672(predicates);
         else
-            return eval140518177767264(predicates);
+            return eval1804870928640(predicates);
     }
 
-    private boolean eval140518177769344(Predicates predicates) {
-        if (predicates.isPresentAtDeath())
-            return eval140518177769280(predicates);
+    private boolean eval1804870928640(Predicates predicates) {
+        if (predicates.isValidCauseOfDeath1())
+            return eval1804870928608(predicates);
         else
-            return eval140518177769312(predicates);
+            return eval1804870923072(predicates);
     }
 
-    private boolean eval140518177769312(Predicates predicates) {
-        if (predicates.isNotPresentAtDeath())
-            return eval140518177769248(predicates);
+    private boolean eval1804870928608(Predicates predicates) {
+        if (predicates.isValidIllnessDuration1())
+            return eval1804870928576(predicates);
         else
-            return eval140518177767264(predicates);
+            return eval1804870923072(predicates);
     }
 
-    private boolean eval140518177769248(Predicates predicates) {
-        if (predicates.isQualifiedInformant())
-            return eval140518177769184(predicates);
-        else
-            return eval140518177769216(predicates);
-    }
-
-    private boolean eval140518177769216(Predicates predicates) {
-        if (predicates.isValidInformantAddress())
-            return eval140518177769184(predicates);
-        else
-            return eval140518177767264(predicates);
-    }
-
-    private boolean eval140518177769184(Predicates predicates) {
-        if (predicates.isNumeric())
-            return eval140518177769152(predicates);
-        else
-            return eval140518177767264(predicates);
-    }
-
-    private boolean eval140518177769152(Predicates predicates) {
-        if (predicates.isValidIDFormat())
-            return eval140518177769088(predicates);
-        else
-            return eval140518177767264(predicates);
-    }
-
-    private boolean eval140518177769088(Predicates predicates) {
-        if (predicates.isValidAge())
-            return eval140518177769024(predicates);
-        else
-            return eval140518177767264(predicates);
-    }
-
-    private boolean eval140518177769024(Predicates predicates) {
-        if (predicates.isFemale())
-            return eval140518177768960(predicates);
-        else
-            return eval140518177768992(predicates);
-    }
-
-    private boolean eval140518177768992(Predicates predicates) {
+    private boolean eval1804870928576(Predicates predicates) {
         if (predicates.isMale())
-            return eval140518177768960(predicates);
+            return eval1804870928512(predicates);
         else
-            return eval140518177767264(predicates);
+            return eval1804870928544(predicates);
     }
 
-    private boolean eval140518177768960(Predicates predicates) {
-        if (predicates.isRegistrationDateOutOfRange())
-            return eval140518177767264(predicates);
+    private boolean eval1804870928544(Predicates predicates) {
+        if (predicates.isFemale())
+            return eval1804870928512(predicates);
         else
-            return eval140518177768928(predicates);
+            return eval1804870923072(predicates);
     }
 
-    private boolean eval140518177768928(Predicates predicates) {
+    private boolean eval1804870928512(Predicates predicates) {
+        if (predicates.isValidCivilStatusOfDeceased())
+            return eval1804870928480(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928480(Predicates predicates) {
+        if (predicates.isValidRank())
+            return eval1804870928448(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928448(Predicates predicates) {
         if (predicates.isMarried())
-            return eval140518177767360(predicates);
+            return eval1804870928320(predicates);
         else
-            return eval140518177768896(predicates);
+            return eval1804870928416(predicates);
     }
 
-    private boolean eval140518177768896(Predicates predicates) {
+    private boolean eval1804870928416(Predicates predicates) {
         if (predicates.isWidower())
-            return eval140518177767360(predicates);
+            return eval1804870928320(predicates);
         else
-            return eval140518177768864(predicates);
+            return eval1804870928384(predicates);
     }
 
-    private boolean eval140518177768864(Predicates predicates) {
+    private boolean eval1804870928384(Predicates predicates) {
         if (predicates.isBachelor())
-            return eval140518177767360(predicates);
+            return eval1804870928320(predicates);
         else
-            return eval140518177768832(predicates);
+            return eval1804870928352(predicates);
     }
 
-    private boolean eval140518177768832(Predicates predicates) {
+    private boolean eval1804870928352(Predicates predicates) {
         if (predicates.isSingle())
-            return eval140518177767360(predicates);
+            return eval1804870928320(predicates);
         else
-            return eval140518177767264(predicates);
+            return eval1804870923072(predicates);
     }
 
-    private boolean eval140518177769280(Predicates predicates) {
-        if (predicates.isNotPresentAtDeath())
-            return eval140518177767264(predicates);
+    private boolean eval1804870928320(Predicates predicates) {
+        if (predicates.isNumeric())
+            return eval1804870928288(predicates);
         else
-            return eval140518177769248(predicates);
+            return eval1804870923072(predicates);
     }
 
-    private boolean eval140518177767264(Predicates predicates) {
+    private boolean eval1804870928288(Predicates predicates) {
+        if (predicates.isValidIDFormat())
+            return eval1804870928256(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928256(Predicates predicates) {
+        if (predicates.isRegistrationDateOutOfRange())
+            return eval1804870928224(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928224(Predicates predicates) {
+        if (predicates.isQualifiedInformant())
+            return eval1804870928192(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928192(Predicates predicates) {
+        if (predicates.isValidInformant())
+            return eval1804870923072(predicates);
+        else
+            return eval1804870928160(predicates);
+    }
+
+    private boolean eval1804870928160(Predicates predicates) {
+        if (predicates.isValidInformantAddress())
+            return eval1804870928096(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928096(Predicates predicates) {
+        if (predicates.isValidAge())
+            return eval1804870923040(predicates);
+        else
+            return eval1804870923072(predicates);
+    }
+
+    private boolean eval1804870928672(Predicates predicates) {
+        if (predicates.isValidIllnessDuration2())
+            return eval1804870928576(predicates);
+        else
+            return eval1804870928640(predicates);
+    }
+
+    private boolean eval1804870923072(Predicates predicates) {
         return false;
     }
 
-    private boolean eval140518177767360(Predicates predicates) {
+    private boolean eval1804870923040(Predicates predicates) {
         return true;
     }
 }

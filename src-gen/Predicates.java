@@ -16,9 +16,17 @@ public interface Predicates {
 
 	boolean isRegistrationDateOutOfRange();
 
+	boolean isValidRank();
+
+	boolean isValidCivilStatusOfDeceased();
+
 	boolean isQualifiedInformant();
 
+	boolean isValidIllnessDuration2();
+
 	boolean isMarried();
+
+	boolean isValidIllnessDuration1();
 
 	boolean isMale();
 
@@ -29,6 +37,10 @@ public interface Predicates {
 	boolean isSingle();
 
 	boolean isBachelor();
+
+	boolean isValidCauseOfDeath1();
+
+	boolean isValidCauseOfDeath2();
 
 	boolean isNotPresentAtDeath();
 }
