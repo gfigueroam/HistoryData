@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53a97768-6f0d-4018-a02c-ed7cb51bfecf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/historydata/GeneratedDecisionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/historydata/GeneratedDecisionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/historydata/HistoryData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/historydata/HistoryData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/historydata/Predicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/historydata/Predicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/historydata/ProcessData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/historydata/ProcessData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/historydata/RowProcessingThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/historydata/RowProcessingThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decision-service-model/A_StudentName_Features.p" beforeDir="false" afterPath="$PROJECT_DIR$/decision-service-model/A_StudentName_Features.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-gen/historydata/GeneratedDecisionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src-gen/historydata/GeneratedDecisionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-gen/historydata/Predicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src-gen/historydata/Predicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/historydata/HistoryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/historydata/HistoryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/historydata/RowProcessingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/historydata/RowProcessingThread.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1p7vXsxU7GOWRUIwGFgh52ILfzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53a97768-6f0d-4018-a02c-ed7cb51bfecf" name="Default Changelist" comment="" />
+      <created>1614546998909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614546998909</updated>
+      <workItem from="1614547008164" duration="934000" />
+      <workItem from="1614590941731" duration="917000" />
+      <workItem from="1614784236832" duration="2077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

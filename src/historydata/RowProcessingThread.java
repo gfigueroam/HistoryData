@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class RowProcessingThread implements Runnable {
 	
-	private int rowNumber;
+	private  int rowNumber;
 	private ProcessData processor;
 	private List<ServiceAdapter<?>> services;
 	
@@ -65,6 +65,12 @@ public class RowProcessingThread implements Runnable {
 		
 		//Martial Status
 		rowInputData.setMaritalStatus(values[9]);
+		
+		//Forename
+		rowInputData.setIsValidForename(values[6]);
+		
+		//Surname
+		rowInputData.setIsValidSurname(values[7]);
 		
 		//Registration Data
 		rowInputData.setIsRegistrationDateOutOfRange(values[21]);

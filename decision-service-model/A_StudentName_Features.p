@@ -58,4 +58,12 @@ PredicatesModel _HE7uoV7oEeqP-IMIOa1IZQ {
   Predicate _uFkwAWIGEeqHEMcDVmTZNA at 20,640 size 404,64 {
   	name "isRegistrationDateOutOfRange"
   }
+  
+  Predicate _PTkhgXtwEeuYKZLjjsqzww at 1430,40 size 240,46 {
+  	name "isValidForename"
+  }
+  
+  Predicate _pvP1cXt4EeuYKZLjjsqzww at 1440,119 size 240,46 {
+  	name "isValidSurname"
+  }
 }

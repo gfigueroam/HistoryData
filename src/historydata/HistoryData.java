@@ -1,8 +1,6 @@
 package historydata;
 
-import java.sql.Date;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 import historydata.Predicates;
 
@@ -16,7 +14,8 @@ public class HistoryData implements Predicates {
 
 	private boolean isValidIDFormat, isNumeric, isMale, isFemale, isValidAge, isMarried, isBachelor, isWidower, isSingle, 
 	isPresentAtDeath, isNotPresentAtDeath, isValidInformant,
-	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate; //isCertified, isUncertified,isValidCauseOfDeath,
+	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate, 
+	isValidForename, isValidSurname; //isCertified, isUncertified,isValidCauseOfDeath,
 	private StringBuilder builder;
 
 	public HistoryData() {
@@ -343,6 +342,33 @@ public class HistoryData implements Predicates {
 			return true;
 		
 		return false;
+	}
+
+
+	/**
+	 * Check if forename parameter is valid
+	 * @param forename
+	 */
+	public void setIsValidForename(String forename) {
+		this.isValidForename = !isNullEntry(forename);
+	}
+	
+	@Override
+	public boolean isValidForename() {
+		return isValidForename;
+	}
+	
+	/**
+	 * Check if surname parameter is valid
+	 * @param forename
+	 */
+	public void setIsValidSurname(String surname) {
+		this.isValidSurname = !isNullEntry(surname);
+	}
+	
+	@Override
+	public boolean isValidSurname() {
+		return isValidSurname;
 	}
 	
 	
