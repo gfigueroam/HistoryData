@@ -291,4 +291,41 @@ DDModel _Lz9pkV7oEeqP-IMIOa1IZQ {
   		id _T0q24WWzEeuP7ehMnQ0u8g
   	}
   }
+  
+  DDFunction _uoi1sX6kEeuW5MK27a4KJg at 4320,30 size 240,46 {
+  	name "checkFullNameIsValid"
+  	-Initial-> _3qun4X6kEeuW5MK27a4KJg  decorate "" at (0,0) {
+  		id _6idqAX6kEeuW5MK27a4KJg
+  	}
+  }
+  
+  PredicateRef _3qun4X6kEeuW5MK27a4KJg at 4380,190 size 240,46 {
+  	libraryComponentUID "_PTkhgXtwEeuYKZLjjsqzww"
+  	-Else-> _7J-V8X6kEeuW5MK27a4KJg  decorate "" at (0,0) {
+  		id _9DA7MX6kEeuW5MK27a4KJg
+  	}
+  	
+  	-Then-> _4yRewX6kEeuW5MK27a4KJg  decorate "" at (0,0) {
+  		id _A58JcX6lEeuW5MK27a4KJg
+  	}
+  }
+  
+  PredicateRef _4yRewX6kEeuW5MK27a4KJg at 4540,280 size 240,46 {
+  	libraryComponentUID "_pvP1cXt4EeuYKZLjjsqzww"
+  	-Else-> _7J-V8X6kEeuW5MK27a4KJg  decorate "" at (0,0) {
+  		id _CxIUkX6lEeuW5MK27a4KJg
+  	}
+  	
+  	-Then-> __aK_0X6kEeuW5MK27a4KJg  decorate "" at (0,0) {
+  		id _DE5lIX6lEeuW5MK27a4KJg
+  	}
+  }
+  
+  Terminal _7J-V8X6kEeuW5MK27a4KJg at 4250,420 size 240,40 {
+  	value false
+  }
+  
+  Terminal __aK_0X6kEeuW5MK27a4KJg at 4540,420 size 240,40 {
+  	value true
+  }
 }
