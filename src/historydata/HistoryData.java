@@ -17,8 +17,14 @@ public class HistoryData implements Predicates {
 	private boolean isValidIDFormat, isNumeric, isMale, isFemale, isValidAge, isMarried, isBachelor, isWidower, isSingle, 
 	isPresentAtDeath, isNotPresentAtDeath, isValidInformant,
 	isQualifiedInformant, isValidInformantAddress, isRegistrationOutOfDate, 
-	isValidRank, isValidCivilStatusOfDeceased, isValidIllnessDuration1, 
-	isValidIllnessDuration2, isValidCauseOfDeath1, isValidCauseOfDeath2; //isCertified, isUncertified,isValidCauseOfDeath,
+	//Gloria's predicates
+	isValidForename, isValidSurname,
+	//Ayo's predicates
+	isValidCivilStatusOfDeceased, isValidIllnessDuration1, isValidIllnessDuration2, isValidCauseOfDeath1, isValidCauseOfDeath2,
+	//AIDANS ADDITIONS
+	isDistrictRecorded, isDateOfDeathInRange, isPlaceOfDeathRecorded, isDistrictAreaRecorded,
+	isBaker, isFarmer, isHousekeeper, isLabourer, isLady, isTeacher, isUnknownRank,isCertified, 
+	isUncertified, isRegistrarRecorded, isTiffFilePathRecorded; //isCertified, isUncertified,isValidCauseOfDeath,
 	
 	private StringBuilder builder;
 
@@ -174,52 +180,6 @@ public class HistoryData implements Predicates {
 		return isBachelor;
 	}
 	
-
-	
-	/**
-	 * Check if input if valid for Cause of Death
-	 * @param text
-	 *
-	public void setCauseOfDeathInput(String input) {
-		if(!isNullEntry(input))
-			isValidCauseOfDeath = true;
-		
-		builder.append("\n5.Cause of Death\n 	isValidCauseOfDeath: " + isValidCauseOfDeath + "\n");
-	}
-	
-	@Override
-	public boolean isValidCauseOfDeath() {
-		return isValidCauseOfDeath;
-	}*/
-	
-	
-	/**
-	 * Check certification value
-	 * @param text
-	 *
-	public void setCertification(String input) {
-		if(!isNullEntry(input))
-		{	
-			if(input.trim().toLowerCase().equals("c"))
-				isCertified = true;
-			
-			if(input.trim().toLowerCase().equals("u"))
-				isUncertified = true;
-		}
-		
-		builder.append("\n6.Certification\n 	isCertified: " + isCertified + "\n" + "	isUncertified: " + isUncertified + "\n");
-	}
-
-	@Override
-	public boolean isUncertified() {
-		return isUncertified;
-	}
-
-	@Override
-	public boolean isCertified() {
-		return isCertified;
-	}*/
-	
 	/**
 	 * Check if Informant is Valid
 	 * @param text
@@ -332,7 +292,6 @@ public class HistoryData implements Predicates {
 	public boolean isRegistrationDateOutOfRange() {
 		return isRegistrationOutOfDate;
 	}
-	
 
 	/**
 	 * Check if input is Null or Empty string
@@ -346,29 +305,38 @@ public class HistoryData implements Predicates {
 		return false;
 	}
 
+	//Gloria's changes
+	
 	@Override
-	public boolean isValidRank() {		
-		return isValidRank;
+	public boolean isValidForename() {
+		// TODO Auto-generated method stub
+		return isValidForename;
 	}
 
-	public void setIsValidRank(String input) {
-		builder.append("\n8.Rank - Profession or Occupation\n");
-		
-		if(!isNullEntry(input))
-		{
-			if(input.equalsIgnoreCase("Baker")
-			|| input.equalsIgnoreCase("Farmer")
-			|| input.equalsIgnoreCase("Housekeeper")
-			|| input.equalsIgnoreCase("Lady")
-			|| input.equalsIgnoreCase("Labourer")
-			|| input.equalsIgnoreCase("Teacher")) {
-				isValidRank = true;
-			}
-		}
-		
-		builder.append(" 	isValidRank: " + isValidRank +"\n");
+	@Override
+	public boolean isValidSurname() {
+		// TODO Auto-generated method stub
+		return isValidSurname;
+	}
+	
+	/**
+	 * Check if forename parameter is valid
+	 * @param forename
+	 */
+	public void setIsValidForename(String forename) {
+		this.isValidForename = !isNullEntry(forename);
+	}
+	
+	/**
+	 * Check if surname parameter is valid
+	 * @param forename
+	 */
+	public void setIsValidSurname(String surname) {
+		this.isValidSurname = !isNullEntry(surname);
 	}
 
+	//Ayo's changes
+	
 	@Override
 	public boolean isValidCivilStatusOfDeceased() {
 		return isValidCivilStatusOfDeceased;
@@ -399,7 +367,6 @@ public class HistoryData implements Predicates {
 	
 	@Override
 	public boolean isValidIllnessDuration1() {
-		// TODO Auto-generated method stub
 		return isValidIllnessDuration1;
 	}
 	
@@ -419,7 +386,6 @@ public class HistoryData implements Predicates {
 
 	@Override
 	public boolean isValidIllnessDuration2() {
-		// TODO Auto-generated method stub
 		return isValidIllnessDuration2;
 	}
 	
@@ -483,5 +449,271 @@ public class HistoryData implements Predicates {
 				|| input.toUpperCase().contains("DAY") 
 				|| input.toUpperCase().contains("MONTH")
 				|| input.toUpperCase().contains("YEAR");
+	}
+
+	//AIDANS ADDITIONS
+	
+	/**
+	 * Check if District recorded
+	 * @param text
+	 */
+	public void setDistrictRecorded(String input) {
+		if(!isNullEntry(input))
+			isDistrictRecorded = true;	
+	
+		builder.append("\n9.District Recorded\n 	isDistrictRecorded: " + isDistrictRecorded + "\n");
+	}
+	
+	@Override
+	public boolean isDistrictRecorded() {
+		return isDistrictRecorded;
+	}	
+	
+	/**
+	 * Retrieve date string
+	 * Convert to correct format
+	 * Check if numeric
+	 * Check if within timeframe
+	 * @param input
+	 * @throws ParseException
+	 */
+	public void setIsDateOfDeathInRange(String input) {
+		builder.append("\n10.Date of Death\n");
+		
+		//Must prove registration date is within range 
+		isDateOfDeathInRange = true;
+		String yearString = "";
+		
+		if(!isNullEntry(input))
+		{
+			//convertInput = new DateConverter();
+			//input = convertInput.convertString(input);
+			//yearString = input.trim().substring(input.length()-4);
+			yearString = "19" + input.trim().substring(input.length()-2);
+		}
+		
+		setIsNumeric(yearString);
+		
+		if(isNumeric) {
+			long year = Long.parseLong(yearString);
+			if(year > 1864 && year <= 1922)
+				isDateOfDeathInRange = true;
+		}	
+		builder.append(" 	isDateOfDeathInRange: " + isDateOfDeathInRange +"\n");
+	}
+
+	@Override
+	public boolean isDateOfDeathInRange() {
+		return isDateOfDeathInRange;
+	}
+	
+	/**
+	 * Check if Place of Death recorded
+	 * @param text
+	 */
+	public void setPlaceOfDeathRecorded(String input) {
+		if(!isNullEntry(input))
+			isPlaceOfDeathRecorded = true;	
+	
+		builder.append("\n11.Place of Death Recorded\n 	isPlaceOfDeathRecorded: " + isPlaceOfDeathRecorded + "\n");
+	}
+	
+	@Override
+	public boolean isPlaceOfDeathRecorded() {
+		return isPlaceOfDeathRecorded;
+	}	
+
+//	/**
+//	 * Examine Deceased Forname and Surname
+//	 * @param text
+//	 */
+//	public void setDeceasedNameRecorded(String input1, String input2) {
+//		if(!isNullEntry(input1))
+//			isForenameRecorded = true;
+//		
+//		if (!isNullEntry(input2))
+//			isSurnameRecorded = true;	
+//	
+//		builder.append("\n12.Deceased Name Recorded\n 	isForenameRecorded: " + isForenameRecorded + "\n" + " 	isSurnameRecorded: " + isSurnameRecorded + "\n");
+//	}
+	
+	/**
+	 * Check if District Area recorded
+	 * @param text
+	 */
+	public void setDistrictAreaRecorded(String input) {
+		if(!isNullEntry(input))
+			isDistrictAreaRecorded = true;	
+	
+		builder.append("\n11.District Area Recorded\n 	isDistrictAreaRecorded: " + isDistrictAreaRecorded + "\n");
+	}
+	
+	@Override
+	public boolean isDistrictAreaRecorded() {
+		return isDistrictAreaRecorded;
+	}	
+	
+	/**
+	 * Examine Rank
+	 * 
+	 * @param text
+	 */
+	public void setDeceasedRank(String input) {
+		if(!isNullEntry(input))
+		{			
+			switch (input.trim().toLowerCase()) {
+				case "baker":
+					isBaker = true;
+					break;
+				case "farmer":
+					isFarmer = true;
+					break;
+				case "housekeeper":
+					isHousekeeper = true;
+					break;
+				case "labourer":
+					isLabourer = true;
+					break;
+				case "lady":
+					isLady = true;
+					break;
+				case "teacher":
+					isTeacher = true;
+					break;
+				default:
+					isUnknownRank = true;
+					break;
+			}			
+		}
+		else
+			isUnknownRank = true;						
+		
+		builder.append("\n12.Deceased Rank\n 	isBaker: " + isBaker +
+				       "\n" + " 	isFarmer: " + isFarmer + 
+				       "\n" + " 	isHousekeeper: " + isHousekeeper + 
+				       "\n" + " 	isLabourer: " + isLabourer + 
+				       "\n" + " 	isLady: " + isLady + 
+				       "\n" + " 	isTeacher: " + isTeacher + 
+				       "\n" + " 	Rank Unknown: " + isUnknownRank + "\n");
+	}
+
+	@Override
+	public boolean isBaker() {
+		return isBaker;
+	}
+
+	@Override
+	public boolean isFarmer() {
+		return isFarmer;
+	}
+
+	@Override
+	public boolean isHousekeeper() {
+		return isHousekeeper;
+	}
+
+	@Override
+	public boolean isLabourer() {
+		return isLabourer;
+	}	
+	
+	@Override
+	public boolean isLady() {
+		return isLady;
+	}
+	
+	@Override
+	public boolean isTeacher() {
+		return isTeacher;
+	}
+	
+	@Override
+	public boolean isUnknownRank() {
+		return isUnknownRank;
+	}	
+	
+	/**
+	 * Check if input if valid for Cause of Death
+	 * @param text
+	 */
+	public void setCauseOfDeathInput(String input1, String input2) {
+		if(!isNullEntry(input1))
+			isValidCauseOfDeath1 = true;
+		if (!isNullEntry(input2))
+			isValidCauseOfDeath2 = true;	
+	
+		builder.append("\n13.Cause of Death\n 	isValidCauseOfDeath1: " + isValidCauseOfDeath1 + "\n" + " 	isValidCauseOfDeath2: " + isValidCauseOfDeath2 + "\n");
+	}
+	
+	/**
+	 * Check certification value
+	 * @param text
+	 */
+	public void setCertification(String input) {
+		if(!isNullEntry(input))
+		{	
+			if(input.trim().toLowerCase().equals("c"))
+				isCertified = true;
+			
+			if(input.trim().toLowerCase().equals("u"))
+				isUncertified = true;
+		}
+		
+		builder.append("\n14.Certification\n 	isCertified: " + isCertified + "\n" + " 	isUncertified: " + isUncertified + "\n");
+	}
+
+	@Override
+	public boolean isUncertified() {
+		return isUncertified;
+	}
+
+	@Override
+	public boolean isCertified() {
+		return isCertified;
+	}	
+	
+	/**
+	 * Check if Name of Registrar recorded
+	 * @param text
+	 */
+	public void setIsRegistrarRecorded(String input) {
+		if(!isNullEntry(input))
+			isRegistrarRecorded = true;	
+	
+		builder.append("\n15.Registrar Recorded\n 	isRegistrarRecorded: " + isRegistrarRecorded + "\n");
+	}
+	
+	@Override
+	public boolean isRegistrarRecorded() {
+		return isRegistrarRecorded;
+	}	
+	
+	/**
+	 * Check if Tiff File Path recorded
+	 * @param text
+	 */
+	public void setIsTiffFilePathRecorded(String input) {
+		if(!isNullEntry(input))
+			isTiffFilePathRecorded = true;	
+	
+		builder.append("\n16.TiffFilePath Recorded\n 	isTiffFilePathRecorded: " + isTiffFilePathRecorded + "\n");
+	}
+	
+	@Override
+	public boolean isTiffFilePathRecorded() {
+		return isTiffFilePathRecorded;
+	}
+
+	//predicates not used but forced to implement
+	@Override
+	public boolean isSurnameRecorded() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isForenameRecorded() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }

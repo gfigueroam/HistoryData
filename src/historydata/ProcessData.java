@@ -16,6 +16,11 @@ public class ProcessData {
 		return data;
 	}
 	
+	
+	/**
+	 * Get number of rows in the file, this includes headers.
+	 * @return size
+	 */
 	public int getSize() {
 		return this.size;
 	}
@@ -99,7 +104,6 @@ public class ProcessData {
 	public boolean isNullEntry(String input) {
 		if(input.equals(null)||input.equals(""))
 			return true;
-		
 		return false;
 	}
 

@@ -119,10 +119,6 @@ PredicatesModel _HE7uoV7oEeqP-IMIOa1IZQ {
   	name "isFarmer"
   }
   
-  Predicate _1uh0nn7eEeuwqK_DwdxM6Q at 1115,1060 size 402,92 {
-  	name "isSurnameRecorded"
-  }
-  
   Predicate _1uh0on7eEeuwqK_DwdxM6Q at 714,1350 size 308,92 {
   	name "isUncertified"
   }
@@ -133,10 +129,6 @@ PredicatesModel _HE7uoV7oEeqP-IMIOa1IZQ {
   
   Predicate _1uh0qn7eEeuwqK_DwdxM6Q at 650,1581 size 308,92 {
   	name "isValidCauseOfDeath2"
-  }
-  
-  Predicate _1uh0rn7eEeuwqK_DwdxM6Q at 1105,991 size 422,92 {
-  	name "isForenameRecorded"
   }
   
   Predicate _1uh0sn7eEeuwqK_DwdxM6Q at 650,1511 size 419,92 {

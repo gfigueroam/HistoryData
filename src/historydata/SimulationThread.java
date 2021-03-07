@@ -1,17 +1,16 @@
 package historydata;
 
-import java.text.ParseException;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
-import org.jfree.data.Value;
-import org.jfree.data.Values;
 
 public class SimulationThread extends Thread {
 
-	private static final int DELAY_IN_MS = 10;
+	private static final int  DELAY_IN_MS = 10;
+	private static final int THREAD_POOL_SIZE = 20;
 
 	private final List<ServiceAdapter<?>> services;
-	private HistoryData currentInputData;
 	private ProcessData processor;
 	private int counter = 1;
 	
@@ -25,113 +24,54 @@ public class SimulationThread extends Thread {
 	 */
 	@Override
 	public void run() {
+		
+		long start = System.currentTimeMillis();
+		
+		setupFiles();
+		
 		try {
 			
-			setupFiles();
-			//While we have data in file to be processed
+			//Create thread pool to process each row in a single thread
+			ExecutorService executor = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
+			
 			while (counter < processor.getSize()) {
 				
-				/* Generate random email */
-				startProcessingData();
-				if(currentInputData!=null)
-				{
-					System.out.println(this.currentInputData);
-	
-					/* Use services */
-					for (ServiceAdapter<?> s : services)
-						s.post(currentInputData);
-	
-					/* Wait a bit */
-					Thread.sleep(DELAY_IN_MS);
-					counter++;
-				}
+				//Processing rowNumber = counter
+				RowProcessingThread rowProcessing = new RowProcessingThread(processor, services, counter);
+				executor.execute(rowProcessing);
+				
+				counter++;
 			}
-			System.out.println("\n\n************************\n"
-					+ "Classification Complete \n"
-					+"************************");
+			
+			//waiting for all the threads to finish
+			executor.shutdown();
+			while(!executor.isTerminated()) {
+				Thread.sleep(DELAY_IN_MS);
+			}
+			
 		} catch (InterruptedException e) {
+			e.printStackTrace();
 		}
+		
+		long timeElapsed = System.currentTimeMillis() - start;
+		
+		System.out.println("\n\n************************\n"
+				+ "Classification Complete \n  in:" +timeElapsed
+				+"ms \n  ************************");
+	
 	}
 	
 	/**
 	 * Select file for testing
 	 */
 	private void setupFiles() {
+		
 		CSVReader reader = new CSVReader();
 		List<String[]> data;
-		
 		if(reader.isFileFound()) {
-			data = reader.getData();
+			data = reader.getData(); 
 			this.processor = new ProcessData(data);
 		}
 	}
 	
-	/**
-	 * 
-	 * ----------------------------
-	 * FORMAL CHECKER OF DATA INPUT
-	 * ----------------------------
-	 * TODO Change index based on actual data sheet for Historical Data
-	 * @throws ParseException 
-	 */
-	public void startProcessingData(){
-		currentInputData = new HistoryData();
-		String[] values = processor.getCurrentRow(counter);
-		
-		int i = 0;
-		for (String s : values) {
-			System.out.println(i + " -- " + s);
-			i++;
-		}
-		
-		//ID
-		//currentInputData.setIsNumeric(values[0]);
-		currentInputData.setIsValidIDFormat(values[0]);
-		
-		//Sex
-		currentInputData.setIsValidSex(values[5]);
-		
-		//Age
-		currentInputData.setIsValidAge(values[8]);
-		
-		//Martial Status
-		currentInputData.setMaritalStatus(values[9]);
-		
-		//Registration Data
-		currentInputData.setIsRegistrationDateOutOfRange(values[21]);
-		
-		/*
-		//Cause of Death
-		currentInputData.setCauseOfDeathInput(values[4]);
-		
-		//Certification
-		currentInputData.setCertification(values[5]);
-		*/
-		
-		//Valid Informant Present at Death
-		currentInputData.setIsValidInformant(values[17]);
-		currentInputData.setIsPresentAtDeathInput(values[19]);
-		
-		//Qualified Informant or Address of Informant
-		currentInputData.setIsQualifiedInformant(values[18]);
-		currentInputData.setIsValidInformantAddress(values[20]); //TODO What to do if no data at end of row...array only has 8 spots, error
-		
-		//Rank - Profession or Occupation
-		currentInputData.setIsValidRank(values[11]);
-		
-		//
-		currentInputData.setValidCivilStatus(values[9], values[5]);
-		
-		//
-		currentInputData.setValidCauseOfDeath1(values[12]);
-		
-		//
-		currentInputData.setValidCauseOfDeath2(values[14]);
-		
-		//
-		currentInputData.setValidIllnessDuration1(values[13]);
-		
-		//
-		currentInputData.setValidIllnessDuration2(values[15]);
-	}
 }
