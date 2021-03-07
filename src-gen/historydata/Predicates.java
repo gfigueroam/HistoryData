@@ -4,35 +4,65 @@ package historydata;
 
 public interface Predicates {
 
+	boolean isPlaceOfDeathRecorded();
+
+	boolean isDistrictRecorded();
+
 	boolean isWidower();
+
+	boolean isTiffFilePathRecorded();
+
+	boolean isHousekeeper();
 
 	boolean isValidInformantAddress();
 
 	boolean isValidIDFormat();
 
-	boolean isFemale();
-
-	boolean isValidAge();
+	boolean isDateOfDeathInRange();
 
 	boolean isPresentAtDeath();
 
-	boolean isRegistrationDateOutOfRange();
+	boolean isDistrictAreaRecorded();
 
-	boolean isValidRank();
+	boolean isRegistrationDateOutOfRange();
 
 	boolean isValidCivilStatusOfDeceased();
 
 	boolean isQualifiedInformant();
 
-	boolean isValidIllnessDuration2();
-
 	boolean isMarried();
+
+	boolean isValidInformant();
+
+	boolean isBaker();
+
+	boolean isLabourer();
+
+	boolean isValidForename();
+
+	boolean isUncertified();
+
+	boolean isSurnameRecorded();
+
+	boolean isRegistrarRecorded();
+
+	boolean isCertified();
+
+	boolean isFarmer();
+
+	boolean isFemale();
+
+	boolean isValidAge();
+
+	boolean isValidIllnessDuration2();
 
 	boolean isValidIllnessDuration1();
 
-	boolean isMale();
+	boolean isUnknownRank();
 
-	boolean isValidInformant();
+	boolean isLady();
+
+	boolean isMale();
 
 	boolean isNumeric();
 
@@ -40,7 +70,13 @@ public interface Predicates {
 
 	boolean isBachelor();
 
+	boolean isValidSurname();
+
+	boolean isForenameRecorded();
+
 	boolean isValidCauseOfDeath1();
+
+	boolean isTeacher();
 
 	boolean isValidCauseOfDeath2();
 

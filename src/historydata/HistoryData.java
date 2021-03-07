@@ -404,13 +404,13 @@ public class HistoryData implements Predicates {
 	}
 	
 	public void setValidIllnessDuration1(String input) {
-		builder.append("\n10.Civil Status of Deceased (M/W/S/B)\n");
+		builder.append("\n10.Duration of Illness 1\n");
 		
 		if(!isNullEntry(input))
 		{
 			if (regexMatch1(input) || regexMatch2(input) || stringContains(input)) 
 			{
-				isValidIllnessDuration2 = true;
+				isValidIllnessDuration1 = true;
 			}
 		}
 		
@@ -424,7 +424,7 @@ public class HistoryData implements Predicates {
 	}
 	
 	public void setValidIllnessDuration2(String input) {
-		builder.append("\n11.Civil Status of Deceased (M/W/S/B)\n");
+		builder.append("\n11.Duration of Illness 2\n");
 		
 		if(!isNullEntry(input))
 		{
@@ -443,7 +443,7 @@ public class HistoryData implements Predicates {
 	}
 	
 	public void setValidCauseOfDeath1(String input) {
-		builder.append("\n12.Civil Status of Deceased (M/W/S/B)\n");
+		builder.append("\n12.Cause of Death 1\n");
 		
 		if(!isNullEntry(input))
 		{
@@ -459,7 +459,7 @@ public class HistoryData implements Predicates {
 	}
 	
 	public void setValidCauseOfDeath2(String input) {
-		builder.append("\n12.Civil Status of Deceased (M/W/S/B)\n");
+		builder.append("\n12.Cause of Death 2\n");
 		
 		if(!isNullEntry(input))
 		{

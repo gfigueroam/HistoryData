@@ -1,0 +1,108 @@
+CompositionModel _OzUWoV7oEeqP-IMIOa1IZQ {
+  predicateInterfaceName "Predicates"
+  className "GeneratedDecisionService"
+  packageName "historydata"
+  generateDot false
+  reorderingHeuristic NONE
+  CompositionFunction _asvTkVAKEeuJMO6DMtySzw at 1080,100 size 376,92 {
+  	name "isValidHistoricalInput"
+  }
+  
+  DDFunctionRef _Qd-gIWVsEeuUOsNY2dMOCQ at 190,300 size 269,92 {
+  	libraryComponentUID "_u6bsQWVQEeuUOsNY2dMOCQ"
+  	-LeftOperand-> _xBsC8WVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _xtFJUWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  DDFunctionRef _TMSggWVsEeuUOsNY2dMOCQ at 205,569 size 240,92 {
+  	libraryComponentUID "_Re4iUWVSEeuUOsNY2dMOCQ"
+  	-RightOperand-> _xBsC8WVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _yLSIQWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  And _UXQe0WVsEeuUOsNY2dMOCQ at 1232,230 size 71,92 {
+  	-Operand-> _asvTkVAKEeuJMO6DMtySzw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _VQZGQWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  And _XkwVkWVsEeuUOsNY2dMOCQ at 950,350 size 71,92 {
+  	-LeftOperand-> _UXQe0WVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _1ECeEWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  And _YhVSkWVsEeuUOsNY2dMOCQ at 1150,621 size 71,92 {
+  	-RightOperand-> _XkwVkWVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _zX4eQWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  DDFunctionRef _bIEEQWVsEeuUOsNY2dMOCQ at 2122,680 size 240,92 {
+  	libraryComponentUID "_q0opoWVSEeuUOsNY2dMOCQ"
+  	-LeftOperand-> _fqvlQWVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _iaiMUWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  DDFunctionRef _cR8dcWVsEeuUOsNY2dMOCQ at 2070,340 size 343,92 {
+  	libraryComponentUID "_GLGEcGVTEeuUOsNY2dMOCQ"
+  	-RightOperand-> _fqvlQWVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _i_hIsWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  And _fqvlQWVsEeuUOsNY2dMOCQ at 1810,510 size 71,92 {
+  	-RightOperand-> _UXQe0WVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _31_BQWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  DDFunctionRef _kWJkcWVsEeuUOsNY2dMOCQ at 150,1020 size 661,92 {
+  	libraryComponentUID "_VOptwWVUEeuUOsNY2dMOCQ"
+  	-LeftOperand-> _YhVSkWVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _sYjUoWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  DDFunctionRef _7eBpQWYMEeu5p6Y3b4F20g at 980,1132 size 423,92 index 11 {
+  	libraryComponentUID "_4enbcWVUEeuUOsNY2dMOCQ"
+  	-LeftOperand-> _Dm2xkWYNEeu5p6Y3b4F20g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _EODUcWYNEeu5p6Y3b4F20g
+  	}
+  }
+  
+  DDFunctionRef _9C6jcWYMEeu5p6Y3b4F20g at 1510,1230 size 465,92 index 12 {
+  	libraryComponentUID "_AdzpIWVhEeuUOsNY2dMOCQ"
+  	-LeftOperand-> _-xasoWYMEeu5p6Y3b4F20g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _AetU4WYNEeu5p6Y3b4F20g
+  	}
+  }
+  
+  And _xBsC8WVsEeuUOsNY2dMOCQ at 740,480 size 71,92 index 10 {
+  	-LeftOperand-> _XkwVkWVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _y3H6kWVsEeuUOsNY2dMOCQ
+  	}
+  }
+  
+  DDFunctionRef _9tw3QWYMEeu5p6Y3b4F20g at 2111,1240 size 424,92 {
+  	libraryComponentUID "_cAHuoWVhEeuUOsNY2dMOCQ"
+  	-RightOperand-> _-xasoWYMEeu5p6Y3b4F20g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _Bt99UWYNEeu5p6Y3b4F20g
+  	}
+  }
+  
+  Or _-xasoWYMEeu5p6Y3b4F20g at 2070,1010 size 41,92 {
+  	-RightOperand-> _Dm2xkWYNEeu5p6Y3b4F20g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _FANxMWYNEeu5p6Y3b4F20g
+  	}
+  }
+  
+  And _Dm2xkWYNEeu5p6Y3b4F20g at 1610,880 size 71,92 {
+  	-RightOperand-> _YhVSkWVsEeuUOsNY2dMOCQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		id _GgwW4WYNEeu5p6Y3b4F20g
+  	}
+  }
+}

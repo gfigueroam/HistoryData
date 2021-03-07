@@ -118,5 +118,20 @@ public class SimulationThread extends Thread {
 		
 		//Rank - Profession or Occupation
 		currentInputData.setIsValidRank(values[11]);
+		
+		//
+		currentInputData.setValidCivilStatus(values[9], values[5]);
+		
+		//
+		currentInputData.setValidCauseOfDeath1(values[12]);
+		
+		//
+		currentInputData.setValidCauseOfDeath2(values[14]);
+		
+		//
+		currentInputData.setValidIllnessDuration1(values[13]);
+		
+		//
+		currentInputData.setValidIllnessDuration2(values[15]);
 	}
 }
